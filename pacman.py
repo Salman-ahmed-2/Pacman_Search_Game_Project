@@ -1,4 +1,4 @@
-git add# pacman.py
+# pacman.py
 # ---------
 
 
