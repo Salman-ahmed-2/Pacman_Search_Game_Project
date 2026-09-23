@@ -1,0 +1,4 @@
+iteration,expanded_state,parent,action,generated_successors,frontier_before,frontier_after,explored,g,h,f
+0,"(5, 2)",None,None,"[((5, 3), 'North', 1), ((5, 1), 'South', 1), ((6, 2), 'East', 1), ((4, 2), 'West', 1)]",1,4,5,0,0,0
+1,"(5, 3)","(5, 2)",'North',"[((5, 2), 'South', 1), ((6, 3), 'East', 1), ((4, 3), 'West', 1)]",4,5,7,1,0,1
+2,"(5, 1)","(5, 2)",'South',"[((5, 2), 'North', 1), ((6, 1), 'East', 1), ((4, 1), 'West', 1)]",5,6,9,1,0,1
