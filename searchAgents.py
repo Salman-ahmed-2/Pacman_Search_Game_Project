@@ -127,6 +127,9 @@ class SearchAgent(Agent):
         else:
             return Directions.STOP
 
+    def isDone(self):
+        return getattr(self, 'actionIndex', 0) >= len(self.actions)
+
 class PositionSearchProblem(search.SearchProblem):
     """
     A search problem defines the state space, start state, goal test, successor
